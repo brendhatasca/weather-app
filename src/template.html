@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <script src="app.js" defer></script> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+
+    <form action="" method="get" class="location-finder">
+        <div class="location-finder">
+            <label for="location">Enter location:</label>
+            <input type="text" name="location" id="location-search-bar" placeholder="Paris, France" required />
+            <div class="dropdown-content" id="dropdown"></div>
+        </div>
+        <div class="location-finder">
+            <button name="search-btn" id="location-search-btn">Search</button>
+        </div>
+    </form>
+
+    <div id="display-weather-info"></div>
+</body>
+</html>

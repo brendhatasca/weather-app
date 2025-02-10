@@ -1,0 +1,41 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.location-finder {
+  display: flex;
+  margin-bottom: 10px
+}
+
+.temperature-celsius,
+.temperature-fahrenheit {
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+
+#dropdown-content {
+    position: absolute;
+    text-align: center;
+    font-weight: 400;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 15px;
+    min-width: 190px;
+    max-width: 190px;
+    max-height: 200px;
+    overflow-y: auto;
+    display: none; /* Initially hidden */
+    z-index: 1;
+  }
+  
+  #dropdown-content div {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  #dropdown-content div:hover {
+    background-color: #f1f1f1;
+  }
